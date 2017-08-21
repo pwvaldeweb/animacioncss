@@ -4,13 +4,12 @@
 }
 body{
     background-color: rgb(64,64,64);
-    height: 100%;
-    width: 1000px;
+    width: 100%;
     
 }
 .container{
     background-color: rgba(204,0,102,0.2);
-    width: 1700px;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
     margin-top: 100px;
@@ -84,8 +83,6 @@ body{
     animation-duration: 10s;
 }
 @keyframes aparece{
-    /*0%{top: 40px;
-        left:50px}*/
     50%{transform:scale(2);
         top:180px; 
         left: -650px}*/
@@ -93,7 +90,3 @@ body{
         top: 40;
         left:80px}
 }
-
-/*.vino:hover #image1{
-  animation: aparece 5s;  
-}*/
